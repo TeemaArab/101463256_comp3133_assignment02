@@ -1,0 +1,12 @@
+
+<header>
+  <h1>Employee App</h1>
+  <nav>
+    <a *ngIf="!authService.isUserLoggedIn()" routerLink="/login">Login</a>
+    <a  *ngIf="authService.isUserLoggedIn()" (click)="logout()">Logout</a>
+    <a routerLink="/signup">Signup</a>
+    <a routerLink="/employees">View Employees</a>
+  </nav>
+</header>
+
+<router-outlet></router-outlet>

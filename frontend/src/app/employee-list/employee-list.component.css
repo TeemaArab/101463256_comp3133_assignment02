@@ -1,0 +1,115 @@
+.table-actions button {
+  padding: 6px 12px;
+  margin-right: 4px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+/* Specific colors */
+.table-actions .view-btn {
+  background-color: #17a2b8; /* Bootstrap info color */
+}
+
+.table-actions .edit-btn {
+  background-color: #007bff; /* Bootstrap primary blue */
+}
+
+.table-actions .delete-btn {
+  background-color: #dc3545; /* Bootstrap red */
+}
+
+
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .search-bar input {
+    padding: 6px;
+    width: 300px;
+  }
+  
+  .search-bar button {
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #1d4ed8;
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .search-bar button:hover {
+    background-color:#557cea ;
+  }
+
+  /* Add Employee Button */
+.add-employee-btn {
+  background-color: #1d4ed8; /* Bootstrap Blue */
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.add-employee-btn:hover {
+  background-color: #557cea;
+}
+
+/* Close Button inside modal */
+.close-btn {
+  background-color: #6c757d; /* Gray */
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.close-btn:hover {
+  background-color: #5a6268;
+}
+  
+  .modal-content form{
+    background-color: #c5c5ee; /* Light grey background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-content button {
+    width: 100px;
+    padding: 8px 12px;
+    margin: 8px 8px 0 0;
+    border: none;
+    color: rgb(234, 234, 234);
+    background-color: #1d4ed8;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .modal-content button[type="submit"] {
+    background-color: #004080; /* Navy Blue */
+  }
+  
+  .modal-content button[type="button"] {
+    background-color: #af1b1b; /* Gray for Cancel */
+  }
+  .modal-content button[type="submit"]:hover {
+    background-color: #3f6182;
+  }
+  
+  .modal-content button[type="button"]:hover {
+    background-color: #de7c7c;
+  }
+  
+  

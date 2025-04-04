@@ -1,0 +1,12 @@
+nav {
+    margin-bottom: 20px;
+    background-color: #003366;
+}
+
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    ;
+}
