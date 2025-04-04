@@ -87,7 +87,7 @@ showEditModal = false;
 editedEmployee: any = null;
 
 editEmployee(emp: any) {
-  this.editedEmployee = { ...emp }; // clone to avoid direct mutation
+  this.editedEmployee = { ...emp }; 
   this.showEditModal = true;
 }
 
@@ -101,7 +101,7 @@ updateEmployee() {
     next: (res: any) => {
       console.log('Employee updated:', res);
       this.closeEditModal();
-      this.getEmployees(); // refresh list
+      this.getEmployees(); 
     },
     error: (err: any) => {
       console.error('Error updating employee:', err);
