@@ -5,6 +5,7 @@ import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { AuthGuard } from './auth.guard'; 
 
 export const routes: Routes = [
+  { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
   { path: 'employees', component: EmployeeListComponent, canActivate: [AuthGuard] },
